@@ -5,7 +5,7 @@
 
 	<groupId>cn.binux</groupId>
 	<artifactId>spring-boot-starter-druid</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>spring-boot-starter-dubbox</name>
@@ -45,13 +45,13 @@
 		</dependency>
 
 		<dependency>
-      <groupId>com.alibaba</groupId>
-      <artifactId>druid</artifactId>
-      <version>1.0.20</version>
-    </dependency>
+		  <groupId>com.alibaba</groupId>
+		  <artifactId>druid</artifactId>
+		  <version>1.0.20</version>
+		</dependency>
 	</dependencies>
 
-	<!-- 配置maven地址 -->
+	<!-- 配置maven地址
 	<distributionManagement>
 		<repository>
 			<id>releases</id>
@@ -63,6 +63,6 @@
 			<name>Nexus Snapshot Repository</name>
 			<url>http://localhost:8077/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
-	</distributionManagement>
+	</distributionManagement> -->
 
 </project>
